@@ -1,9 +1,9 @@
 SRC = src/
-src/main.c
+main.c
 
-INC = -Iinclude\
+INC = -Iinc
 
-PROJECT_NAME = Bank.out
+PROJECT_NAME = bank.exe
 
 $(PROJECT_NAME): $(SRC)
 	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
