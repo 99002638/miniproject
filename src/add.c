@@ -1,5 +1,5 @@
 #include<bank.h>
-void addmoney(int n)
+void credit(int n)
 {
     if(n==0)
     {
