@@ -2,9 +2,9 @@
 #include<string.h>
 #include<stdbool.h>
 createaccount(int)
-viewaccount(number);
+viewaccount(int);
                 
-addmoney(number);
+addmoney(int);
              
                 
 withdraw(int);
@@ -13,4 +13,4 @@ transfer(int);
              
 mobilechange(int);
           
-accountsearch(number);
+accountsearch(int);
