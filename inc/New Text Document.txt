@@ -1,0 +1,13 @@
+viewaccount(number);
+                
+addmoney(number);
+             
+                
+withdraw(int);
+           
+transfer(int);
+             
+mobilechange(int);
+          
+accountsearch(number);
+               
