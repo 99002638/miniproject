@@ -1,5 +1,5 @@
 
-#include<bank.h>
+#include <bank.h>
 struct bank
 {
     char custname[100];
