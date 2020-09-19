@@ -4,9 +4,8 @@
 createaccount(int)
 viewaccount(int);
                 
-addmoney(int);
-             
-                
+credit(int);
+                             
 withdraw(int);
            
 transfer(int);
