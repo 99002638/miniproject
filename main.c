@@ -47,7 +47,7 @@ int main()
                 break;
             case 3:
                 
-                addmoney(number);
+                credit(number);
                 break;
             case 4:
                 
