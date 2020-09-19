@@ -6,17 +6,17 @@ void addmoney(int n)
         printf("No Account to display\n");
         goto end;
     }
-    int z,i,acc,amount;
+    int z,iterator,acc,amount;
     printf("Enter the Account number\n");
     scanf("%d",&acc);
     printf("Enter the amount need to be add in your account\n");
     scanf("%d",&amount);
-    for(i=0;i<n;i++)
+    for(iterator=0;iterator<n;iterator++)
     {
-        if(acc==e[i].accno)
+        if(acc==e[iterator].accno)
         {
-            e[i].accbal=e[i].accbal+amount;
-            z=i;
+            e[iterator].accbal=e[iterator].accbal+amount;
+            z=iterator;
             break;
         }
     }
